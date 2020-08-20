@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>1.0.0-rc1-10004</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-13450" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>
